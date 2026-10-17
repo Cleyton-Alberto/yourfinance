@@ -1,0 +1,15 @@
+{
+    "name": "cley/yourfinance",
+    "description": "Sistema web de gerenciamento financeiro pessoal, permitindo organizar gastos em pastas e acompanhar as despesas por meio de dashboards e gráficos.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "YourFinance\\": "src/"
+     }
+    },
+    "require": {
+        "doctrine/migrations": "^3.9",
+        "doctrine/dbal": "^4.5",
+        "vlucas/phpdotenv": "^5.7"
+    }
+}
